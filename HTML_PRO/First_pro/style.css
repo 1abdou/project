@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+}
+.website-header{
+padding: 10px;
+height: 80px;
+display:flex;
+flex-wrap: wrap;
+}
+.website-header img{
+    width: 90px;
+    height: 80px;
+    margin: 0 30px;
+    }
+.social-icons{
+    text-align: right;
+    flex-grow: 1;
+
+}
+.social-icons i{
+    margin: 0 7px;
+    cursor: pointer;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+nav ul{
+    margin: 20px 0 0 0;
+}
+.navbar-nav li{
+    padding: 10px 10px;
+}
+.navbar-nav li a{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+}
+.breaking-news-section{
+    padding: 0 30px0 60px;
+    display: flex;
+}
+#bntime{
+width: 200px;
+font-size: 16px;
+text-transform: uppercase;
+color:rgb(205, 26, 13);
+
+}
+.breaking-news{
+    padding: 30px;
+    color: aliceblue;
+    font-weight: 800;
+    display: inline-block;
+}
+.bntime{
+    display: inline-block;
+    color: rgba(255, 255, 255,0.5);
+    padding: 0 10px;
+    font-size: 12px;
+}
+#popular-news{
+    display: flex;
+    margin: 30px 5%;
+}
+#popular-news img{
+    width: 100%;
+}
+#popular-news h2{
+    margin: 0;
+    padding: 5px;
+    color: aliceblue;
+}
+featured h2{
+    background-color: black;
+}
+#latest h2{
+    background-color: rgb(169, 37, 11);
+}
+#featured h2{
+    background-color: blue;
+}
